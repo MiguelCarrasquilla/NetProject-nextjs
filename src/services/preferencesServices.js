@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api'; // Puedes definir la URL base de tu API
+const API_URL = 'https://net-project-golang.vercel.app/api'; // Puedes definir la URL base de tu API
 
 export const fetchUserPreferences = async (id, token) => {
     try {

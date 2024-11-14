@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // URL base del backend
-const API_URL = "http://localhost:8080/api/fairs";
+const API_URL = "https://net-project-golang.vercel.app/api/fairs";
 
 // Función para crear una feria
 export const createFair = async (formData) => {
