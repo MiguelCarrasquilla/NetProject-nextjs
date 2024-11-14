@@ -1,7 +1,13 @@
-import Image from 'next/image'
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';  // Importa el hook useRouter
 
 export default function Home() {
-  return (
-    <h1>Pruebita</h1>
-  )
+  const router = useRouter();  // Inicializa el router
+
+  useEffect(() => {
+    // Redirigir a la página "/dashboard"
+    router.push('/dashboard');
+  }, [router]);
+
+  return null;  // No necesitas mostrar nada en la página de inicio
 }
