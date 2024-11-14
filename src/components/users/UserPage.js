@@ -223,7 +223,7 @@ const UserPage = ({ userId }) => {
                         <Input
                             label="LinkedIn"
                             name="linkedinlink"
-                            value={formInfo.linkedinlink}
+                            value={formDataPref.linkedinlink}
                             onChange={handleChangePref}
                             type="text"
                         />
