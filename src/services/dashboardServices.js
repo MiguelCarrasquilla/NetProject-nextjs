@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://net-project-golang.vercel.app/api';
+const API_URL = 'https://netproject-golang-production.up.railway.app/api';
 
 export const fetchAllFairs = async (token) => {
     try {
