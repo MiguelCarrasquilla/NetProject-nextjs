@@ -1,5 +1,6 @@
+'use client'
 import { useEffect } from 'react';
-import { useRouter } from 'next/router';  // Importa el hook useRouter
+import { useRouter } from 'next/navigation';  // Importa el hook useRouter
 
 export default function Home() {
   const router = useRouter();  // Inicializa el router
@@ -9,5 +10,7 @@ export default function Home() {
     router.push('/dashboard');
   }, [router]);
 
-  return null;  // No necesitas mostrar nada en la página de inicio
+  return (
+    <div> Cargando...</div>
+  )
 }
